@@ -152,6 +152,7 @@ jQuery(function ($) {
                     tpl = tpl.replaceAll("[Status]", "occupied");
                     tpl = tpl.replaceAll("[OccupiedDate]", obj.occupieddate);
                     tpl = tpl.replaceAll("[OccupiedPerson]", obj.occupiedperson);
+                    tpl = tpl.replaceAll("[OccupiedContactNo]", obj.occupiedcontactno);
                     tpl = tpl.replaceAll("[OccupiedLocation]", obj.occupiedlocation);
                 }
                 else {
@@ -173,6 +174,7 @@ jQuery(function ($) {
                     tpl = tpl.replaceAll("[Status]", "occupied");
                     tpl = tpl.replaceAll("[OccupiedDate]", obj.occupieddate);
                     tpl = tpl.replaceAll("[OccupiedPerson]", obj.occupiedperson);
+                    tpl = tpl.replaceAll("[OccupiedContactNo]", obj.occupiedcontactno);
                     tpl = tpl.replaceAll("[OccupiedLocation]", obj.occupiedlocation);
                 }
                 else {
