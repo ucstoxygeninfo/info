@@ -1,0 +1,77 @@
+{
+  "lastupdateddate":"09 Aug 2021",
+  "data": [
+    {
+      "type": 1,
+      "name": "Oxygen Concentrator1",
+      "description":"",
+      "status":1,
+      "location":"Yangon",
+      "contactperson":"Ma Su Hlaing Htut",
+	  "contactno":"09 665 443 233",
+      "occupieddate":"",
+      "occupiedperson":"",
+	  "occupiedlocation":""
+    },
+    {
+      "type": 2,
+      "name": "Oxygen Tank 1",
+      "description":"",
+      "status":1,
+      "location":"Yangon",
+      "contactperson":"Mg Nein Chan Aung",
+	  "contactno":"09 665 443 233",
+      "occupieddate":"",
+      "occupiedperson":"",
+	  "occupiedlocation":""
+    },
+	{
+      "type": 2,
+      "name": "Oxygen Tank 2",
+      "description":"",
+      "status":0,
+      "location":"Bago",
+      "contactperson":"Mg Nein Chan Aung",
+	  "contactno":"09 665 443 233",
+       "occupieddate":"20210801",
+      "occupiedperson":"Mg Htin Lin",
+	  "occupiedlocation":"Bago"
+    },
+	{
+      "type": 2,
+      "name": "Oxygen Tank 3",
+      "description":"",
+      "status":2,
+      "location":"Yangon",
+      "contactperson":"Mg Nein Chan Aung",
+	  "contactno":"09 665 443 233",
+      "occupieddate":"",
+      "occupiedperson":"",
+	  "occupiedlocation":""
+    },
+	{
+      "type": 2,
+      "name": "Oxygen Tank 4",
+      "description":"",
+      "status":1,
+      "location":"Yangon",
+      "contactperson":"Mg Nein Chan Aung",
+	  "contactno":"09 665 443 233",
+      "occupieddate":"",
+      "occupiedperson":"",
+	  "occupiedlocation":""
+    },
+	{
+      "type": 2,
+      "name": "Oxygen Tank 5",
+      "description":"",
+      "status":0,
+      "location":"Yangon",
+      "contactperson":"Mg Nein Chan Aung",
+	  "contactno":"09 665 443 233",
+      "occupieddate":"12 Aug 2021",
+      "occupiedperson":"U Win Htein",
+	  "occupiedlocation":"Nyaung Lay Pin"
+    }
+  ]
+}
