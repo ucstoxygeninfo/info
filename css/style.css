@@ -2300,7 +2300,7 @@ textarea.form-control {
     border: 2px solid #1eb858;
 }
 
-    .available .OccupiedSection {
+    .available .OccupiedSection, .returning .OccupiedSection {
         display: none;
     }
 
@@ -2353,6 +2353,10 @@ h3 {
     display: none;
 }
 
+.processing {
+    display: none;
+}
+
 .returning {
     border: 2px solid #FFA500;
 }
@@ -2371,6 +2375,13 @@ h3 {
     font-size: 22px !important;
     vertical-align: sub;
     color: #db232b !important
+}
+.returning .processing {
+    display: inline-block;
+    padding-left: 5px;
+    font-size: 22px !important;
+    vertical-align: sub;
+    color: #FFA500 !important
 }
 
 b {
