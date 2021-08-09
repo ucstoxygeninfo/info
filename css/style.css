@@ -2300,7 +2300,7 @@ textarea.form-control {
     border: 2px solid #1eb858;
 }
 
-    .available .OccupiedSection, .returning .OccupiedSection {
+    .available .occupied-section, .returning .occupied-section {
         display: none;
     }
 
@@ -2337,7 +2337,7 @@ h3 {
     color: #db232b;
 }
 
-.OccupiedSection i {
+.occupied-section i {
     color: #db232b;
 }
 
@@ -2414,6 +2414,9 @@ a {
         padding-top: 10px;
         line-height: 1.5;
     }
+.occupied-section a {
+    color: #db232b !important;
+}
 
 /*---------------------------------------------------
 ------- Media Queries for Split Layout Ends ---------
