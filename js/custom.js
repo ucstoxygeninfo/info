@@ -154,6 +154,10 @@ jQuery(function ($) {
                     tpl = tpl.replaceAll("[OccupiedPerson]", obj.occupiedperson);
                     tpl = tpl.replaceAll("[OccupiedContactNo]", obj.occupiedcontactno);
                     tpl = tpl.replaceAll("[OccupiedLocation]", obj.occupiedlocation);
+                    
+                    if(obj.occupieddate==='' && obj.occupiedperson==='' && obj.occupiedcontactno==='' && obj.occupiedlocation===''){
+                        tpl=tpl.replaceAll("[occupied-section-display]","hidden");
+                    }
                 }
                 else {
                     tpl = tpl.replaceAll("[Status]", "returning");
@@ -176,6 +180,10 @@ jQuery(function ($) {
                     tpl = tpl.replaceAll("[OccupiedPerson]", obj.occupiedperson);
                     tpl = tpl.replaceAll("[OccupiedContactNo]", obj.occupiedcontactno);
                     tpl = tpl.replaceAll("[OccupiedLocation]", obj.occupiedlocation);
+                    
+                    if(obj.occupieddate==='' && obj.occupiedperson==='' && obj.occupiedcontactno==='' && obj.occupiedlocation===''){
+                        tpl=tpl.replaceAll("[occupied-section-display]","hidden");
+                    }
                 }
                 else {
                     tpl = tpl.replaceAll("[Status]", "returning");
